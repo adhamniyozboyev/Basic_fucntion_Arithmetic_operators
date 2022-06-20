@@ -2,7 +2,8 @@
 // Create a function argument called ‘number’ type of int.
 // Create a variable called ‘answer’.
 // Find the remainder of the division of number by 3 and assign it to
-// ‘answer’.
-// return the answer.
-
-void main() {}
+// ‘answer’.// return the answer.
+int func (number){
+  return number%3;
+}
+void main() {print(func(967978));}
